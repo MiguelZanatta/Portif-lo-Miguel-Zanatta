@@ -20,3 +20,8 @@ function copiarTexto(id) {
         alert('Copiado: ' + texto);
     });
 }
+const botaoDark = document.getElementById("toggle-dark");
+
+botaoDark.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+});
