@@ -191,13 +191,14 @@ footer {
 
 /* Botão modo escuro */
 #toggle-dark {
-    margin-top: 15px;
-    padding: 8px 15px;
+    margin-top: -20px;
+    padding: 8px 8px;
     border: none;
     background: white;
     color: #0d47a1;
-    border-radius: 5px;
+    border-radius: 12px;
     cursor: pointer;
+    float: right;
 }
 
 /* 🌙 MODO ESCURO */
